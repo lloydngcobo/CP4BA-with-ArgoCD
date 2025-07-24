@@ -4,7 +4,7 @@ metadata:
   name: ibm-cp4a-operator
   namespace: cp4ba-project
 spec:
-  channel: v25.0
+  channel: v24.0
   name: ibm-cp4a-operator
   source: ibm-cp4a-operator-catalog
   sourceNamespace: cp4ba-project
