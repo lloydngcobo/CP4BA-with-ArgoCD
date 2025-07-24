@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/namespace
-    targetRevision: main
+    targetRevision: 25.0.0
   destination:
     server: https://kubernetes.default.svc 
   syncPolicy:
@@ -33,7 +33,7 @@ spec:
   source:
     repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD 
     path: cp4ba-manifests/catalogsource
-    targetRevision: main
+    targetRevision: 25.0.0
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
@@ -56,7 +56,7 @@ spec:
   source:
     repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/configmap
-    targetRevision: main
+    targetRevision: 25.0.0
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
@@ -79,7 +79,7 @@ spec:
   source:
     repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/secrets
-    targetRevision: main
+    targetRevision: 25.0.0
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
@@ -102,7 +102,7 @@ spec:
   source:
     repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/operatorgroup
-    targetRevision: main
+    targetRevision: 25.0.0
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
@@ -125,7 +125,7 @@ spec:
   source:
     repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/subscriptions
-    targetRevision: main
+    targetRevision: 25.0.0
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
@@ -148,7 +148,7 @@ spec:
   source:
     repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/deployCR
-    targetRevision: main
+    targetRevision: 25.0.0
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
