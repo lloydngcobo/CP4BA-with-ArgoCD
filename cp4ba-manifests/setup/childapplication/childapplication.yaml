@@ -6,13 +6,13 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "10"
 spec:
-  project: default
+  project: cp4ba
   source:
-    repoURL: <GIT_REPO_URL>
+    repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/namespace
     targetRevision: main
   destination:
-    server: <SERVER>
+    server: https://kubernetes.default.svc 
   syncPolicy:
     automated:
       prune: true
@@ -29,13 +29,13 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "15"
 spec:
-  project: default
+  project: cp4ba
   source:
-    repoURL: <GIT_REPO_URL>
+    repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD 
     path: cp4ba-manifests/catalogsource
     targetRevision: main
   destination:
-    server: <SERVER>
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       prune: true
@@ -52,13 +52,13 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "20"
 spec:
-  project: default
+  project: cp4ba
   source:
-    repoURL: <GIT_REPO_URL>
+    repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/configmap
     targetRevision: main
   destination:
-    server: <SERVER>
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       prune: true
@@ -75,13 +75,13 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "25"
 spec:
-  project: default
+  project: cp4ba
   source:
-    repoURL: <GIT_REPO_URL>
+    repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/secrets
     targetRevision: main
   destination:
-    server: <SERVER>
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       prune: true
@@ -98,13 +98,13 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "30"
 spec:
-  project: default
+  project: cp4ba
   source:
-    repoURL: <GIT_REPO_URL>
+    repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/operatorgroup
     targetRevision: main
   destination:
-    server: <SERVER>
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       prune: true
@@ -121,13 +121,13 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "50"
 spec:
-  project: default
+  project: cp4ba
   source:
-    repoURL: <GIT_REPO_URL>
+    repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/subscriptions
     targetRevision: main
   destination:
-    server: <SERVER>
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       prune: true
@@ -144,13 +144,13 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "100"
 spec:
-  project: default
+  project: cp4ba
   source:
-    repoURL: <GIT_REPO_URL>
+    repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD
     path: cp4ba-manifests/deployCR
     targetRevision: main
   destination:
-    server: <SERVER>
+    server: https://kubernetes.default.svc
   syncPolicy:
     automated:
       prune: true

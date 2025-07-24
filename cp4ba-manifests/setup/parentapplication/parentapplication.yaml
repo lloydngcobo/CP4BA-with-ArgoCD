@@ -6,13 +6,13 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "0"
 spec:
-  project: default
+  project: cp4ba
   source:
-    repoURL: <GIT_REPO_URL>
+    repoURL: https://github.com/lloydngcobo/CP4BA-with-ArgoCD 
     path: cp4ba-manifests/setup/childapplication
     targetRevision: main
   destination:
-    server: <SERVER>
+    server: https://kubernetes.default.svc 
   syncPolicy:
     automated:
       prune: true
