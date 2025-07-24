@@ -13,7 +13,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: ibm-cp4a-operator-catalog
-  namespace: openshift-marketplace
+  namespace: cp4ba-project
 spec:
   displayName: ibm-cp4a-operator
   publisher: IBM
@@ -28,7 +28,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: ibm-opencontent-flink
-  namespace: openshift-marketplace
+  namespace: cp4ba-project
 spec:
   displayName: IBM CS Opencontent Flink Catalog
   publisher: IBM
@@ -45,7 +45,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: ibm-cs-opensearch-catalog
-  namespace: openshift-marketplace
+  namespace: cp4ba-project
 spec:
   displayName: IBM CS Opencontent Opensearch Catalog
   publisher: IBM
@@ -61,7 +61,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: ibm-cert-manager-catalog
-  namespace: openshift-marketplace
+  namespace: ibm-cert-manager
 spec:
   displayName: ibm-cert-manager-4.2.4
   publisher: IBM
@@ -76,7 +76,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: ibm-licensing-catalog
-  namespace: openshift-marketplace
+  namespace: ibm-licensing
 spec:
   displayName: ibm-licensing-4.2.4
   publisher: IBM
@@ -91,7 +91,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: ibm-cs-install-catalog-v4-6-2
-  namespace: openshift-marketplace
+  namespace: cp4ba-project
   annotations:
     bedrock_catalogsource_priority: '1'
 spec:
@@ -109,7 +109,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: bts-operator
-  namespace: openshift-marketplace
+  namespace: cp4ba-project
   annotations:
     bedrock_catalogsource_priority: '1'
 spec:
@@ -126,7 +126,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: ibm-iam-operator-catalog
-  namespace: openshift-marketplace
+  namespace: cp4ba-project
   annotations:
     bedrock_catalogsource_priority: '1'
 spec:
@@ -144,7 +144,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: ibm-zen-operator-catalog
-  namespace: openshift-marketplace
+  namespace: cp4ba-project
   annotations:
     bedrock_catalogsource_priority: '1'
 spec:
@@ -162,7 +162,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: ibm-events-operator-catalog
-  namespace: openshift-marketplace
+  namespace: cp4ba-project
   annotations:
     bedrock_catalogsource_priority: '1'
 spec:
@@ -180,7 +180,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: cloud-native-postgresql-catalog
-  namespace: openshift-marketplace
+  namespace: cp4ba-project
   annotations:
     bedrock_catalogsource_priority: '1'
 spec:
@@ -198,7 +198,7 @@ apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
   name: ibm-fncm-operator-catalog
-  namespace: openshift-marketplace
+  namespace: cp4ba-project
 spec:
   displayName: ibm-fncm-operator
   publisher: IBM
